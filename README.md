@@ -1,7 +1,7 @@
 # SMSSender
 simple sms api
 
-          1. install form nuget Microestc.SMSSender 1.0.0
+          1. install form nuget Microestc.SMSSender 1.1.0
 
           2. into Config svc
            public void ConfigureServices(IServiceCollection services)
