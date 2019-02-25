@@ -162,7 +162,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Polly/6.0.1": {
+      "Polly/7.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Polly.dll": {}
@@ -526,10 +526,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Polly/6.0.1": {
-      "sha512": "nwL8qNLkrphkehUftQqJZOExH6sJ+PPWhkrksqoouAvy9TuEgYUjFujlUVC8PyYLIWIneR9R4opcFpPKn1HQ1A==",
+    "Polly/7.0.3": {
+      "sha512": "wSHZLI31uJls8XCd2/HH7iMxmvTNGZeq4Zxya6A+0bruoKL4HYtkrF5PyUc38bYXhIR85xAL0nQc/L7BAdELrw==",
       "type": "package",
-      "path": "polly/6.0.1",
+      "path": "polly/7.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -541,7 +541,7 @@
         "lib/netstandard2.0/Polly.dll",
         "lib/netstandard2.0/Polly.pdb",
         "lib/netstandard2.0/Polly.xml",
-        "polly.6.0.1.nupkg.sha512",
+        "polly.7.0.3.nupkg.sha512",
         "polly.nuspec"
       ]
     },
@@ -778,7 +778,8 @@
       "Microsoft.Extensions.DependencyInjection >= 2.2.0",
       "Microsoft.Extensions.Http.Polly >= 2.2.0",
       "Microsoft.Extensions.Options >= 2.2.0",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "Polly >= 7.0.3"
     ]
   },
   "packageFolders": {
@@ -788,11 +789,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Microestc\\source\\repos\\microestc\\MicroestcOnContainers\\Src\\BuildBlocks\\Microestc\\SMSSender\\SMSSender.csproj",
+      "projectUniqueName": "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\SMSSender.csproj",
       "projectName": "SMSSender",
-      "projectPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\MicroestcOnContainers\\Src\\BuildBlocks\\Microestc\\SMSSender\\SMSSender.csproj",
+      "projectPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\SMSSender.csproj",
       "packagesPath": "C:\\Users\\Microestc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\MicroestcOnContainers\\Src\\BuildBlocks\\Microestc\\SMSSender\\obj\\",
+      "outputPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -843,6 +844,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Polly": {
+            "target": "Package",
+            "version": "[7.0.3, )"
           }
         },
         "imports": [

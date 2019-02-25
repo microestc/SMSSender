@@ -4,3 +4,9 @@ C:\Users\Microestc\source\repos\microestc\MicroestcOnContainers\Src\BuildBlocks\
 C:\Users\Microestc\source\repos\microestc\MicroestcOnContainers\Src\BuildBlocks\Microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.csproj.CoreCompileInputs.cache
 C:\Users\Microestc\source\repos\microestc\MicroestcOnContainers\Src\BuildBlocks\Microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.AssemblyInfoInputs.cache
 C:\Users\Microestc\source\repos\microestc\MicroestcOnContainers\Src\BuildBlocks\Microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.AssemblyInfo.cs
+C:\Users\Microestc\source\repos\microestc\SMSSender\bin\Debug\netstandard2.0\SMSSender.deps.json
+C:\Users\Microestc\source\repos\microestc\SMSSender\bin\Debug\netstandard2.0\SMSSender.dll
+C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.csprojAssemblyReference.cache
+C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.csproj.CoreCompileInputs.cache
+C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.AssemblyInfoInputs.cache
+C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.AssemblyInfo.cs

@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Net.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
-using Polly.Extensions.Http;
 
 namespace SMSSender
 {
@@ -19,25 +17,16 @@ namespace SMSSender
 
             services.AddTransient<HttpClientDelegatingHandler>();
 
-            services.AddHttpClient<ISMSSender, SMSSender>().AddHttpMessageHandler<HttpClientDelegatingHandler>();//.AddPolicyHandler(GetRetryPolicy()).AddPolicyHandler(GetCircuitBreakerPolicy());
+            services.AddHttpClient<ISMSSender, SMSSender>(option =>
+            {
+                option.DefaultRequestHeaders.Add("Conetent-Type", "application/json");
+            })
+            .AddHttpMessageHandler<HttpClientDelegatingHandler>()
+            .AddTransientHttpErrorPolicy(p => p.WaitAndRetryAsync(3, _ => TimeSpan.FromMilliseconds(600)))
+            .AddTransientHttpErrorPolicy(p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(10)));
 
             return services;
         }
 
-        internal static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
-        {
-            return HttpPolicyExtensions
-              .HandleTransientHttpError()
-              .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.NotFound)
-              .WaitAndRetryAsync(6, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
-
-        }
-
-        static IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
-        {
-            return HttpPolicyExtensions
-                .HandleTransientHttpError()
-                .CircuitBreakerAsync(5, TimeSpan.FromSeconds(30));
-        }
     }
 }

@@ -8,7 +8,8 @@ namespace SMSSender
     {
         protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
         {
-            request.Headers.Add("Conetent-Type", "application/json");
+            
+            // do some things
             return await base.SendAsync(request, cancellationToken);
         }
     }

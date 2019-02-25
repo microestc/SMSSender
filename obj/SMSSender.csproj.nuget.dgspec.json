@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Microestc\\source\\repos\\microestc\\MicroestcOnContainers\\Src\\BuildBlocks\\Microestc\\SMSSender\\SMSSender.csproj": {}
+    "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\SMSSender.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Microestc\\source\\repos\\microestc\\MicroestcOnContainers\\Src\\BuildBlocks\\Microestc\\SMSSender\\SMSSender.csproj": {
+    "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\SMSSender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Microestc\\source\\repos\\microestc\\MicroestcOnContainers\\Src\\BuildBlocks\\Microestc\\SMSSender\\SMSSender.csproj",
+        "projectUniqueName": "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\SMSSender.csproj",
         "projectName": "SMSSender",
-        "projectPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\MicroestcOnContainers\\Src\\BuildBlocks\\Microestc\\SMSSender\\SMSSender.csproj",
+        "projectPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\SMSSender.csproj",
         "packagesPath": "C:\\Users\\Microestc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\MicroestcOnContainers\\Src\\BuildBlocks\\Microestc\\SMSSender\\obj\\",
+        "outputPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
