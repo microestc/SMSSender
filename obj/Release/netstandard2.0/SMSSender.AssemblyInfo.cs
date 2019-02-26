@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SMSSender")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Microestc Co.")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Microestc Co.")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Simple Send SMS Service")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SMSSender")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SMSSender")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.1.1.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

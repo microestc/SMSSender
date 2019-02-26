@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Microestc.SMSSender</PackageId>
+    <Authors>Microestc</Authors>
+    <Company>Microestc Co.</Company>
+    <Copyright>Microestc Co.</Copyright>
+    <PackageProjectUrl>https://github.com/microestc/SMSSender</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/microestc/SMSSender</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageLicenseUrl>https://github.com/microestc/SMSSender/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>Simple Send SMS Service</Description>
+    <PackageReleaseNotes>Simple Send SMS Service</PackageReleaseNotes>
+    <Version>1.1.1</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>

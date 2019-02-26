@@ -787,10 +787,10 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\SMSSender.csproj",
-      "projectName": "SMSSender",
+      "projectName": "Microestc.SMSSender",
       "projectPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\SMSSender.csproj",
       "packagesPath": "C:\\Users\\Microestc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Microestc\\source\\repos\\microestc\\SMSSender\\obj\\",

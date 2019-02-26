@@ -1,19 +1,20 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "b1ca8759033a281caea87717604df27643490fd3"
+    "signature": "63f9d63235b01cef2e3d0cdf2b51e39715482a06"
   },
   "compilationOptions": {},
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "SMSSender/1.0.0": {
+      "SMSSender/1.1.1": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.Http.Polly": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "Polly": "7.0.3"
         },
         "runtime": {
           "SMSSender.dll": {}
@@ -87,7 +88,7 @@
       "Microsoft.Extensions.Http.Polly/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Http": "2.2.0",
-          "Polly": "6.0.1",
+          "Polly": "7.0.3",
           "Polly.Extensions.Http": "2.0.1"
         },
         "runtime": {
@@ -150,17 +151,17 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Polly/6.0.1": {
+      "Polly/7.0.3": {
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1.0"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.3.0"
           }
         }
       },
       "Polly.Extensions.Http/2.0.1": {
         "dependencies": {
-          "Polly": "6.0.1"
+          "Polly": "7.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/Polly.Extensions.Http.dll": {
@@ -217,7 +218,7 @@
     }
   },
   "libraries": {
-    "SMSSender/1.0.0": {
+    "SMSSender/1.1.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -313,12 +314,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Polly/6.0.1": {
+    "Polly/7.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nwL8qNLkrphkehUftQqJZOExH6sJ+PPWhkrksqoouAvy9TuEgYUjFujlUVC8PyYLIWIneR9R4opcFpPKn1HQ1A==",
-      "path": "polly/6.0.1",
-      "hashPath": "polly.6.0.1.nupkg.sha512"
+      "sha512": "sha512-wSHZLI31uJls8XCd2/HH7iMxmvTNGZeq4Zxya6A+0bruoKL4HYtkrF5PyUc38bYXhIR85xAL0nQc/L7BAdELrw==",
+      "path": "polly/7.0.3",
+      "hashPath": "polly.7.0.3.nupkg.sha512"
     },
     "Polly.Extensions.Http/2.0.1": {
       "type": "package",

@@ -10,3 +10,6 @@ C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMS
 C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.csproj.CoreCompileInputs.cache
 C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.AssemblyInfoInputs.cache
 C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.AssemblyInfo.cs
+C:\Users\Microestc\source\repos\microestc\SMSSender\bin\Debug\netstandard2.0\SMSSender.pdb
+C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.dll
+C:\Users\Microestc\source\repos\microestc\SMSSender\obj\Debug\netstandard2.0\SMSSender.pdb
